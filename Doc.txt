@@ -1,0 +1,165 @@
+%------------------------
+% Resume Template
+% Author : Sneha Sarkar
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[letter,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{2in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Sneha Sarkar}} & Email: \href{mailto:}{simplyemail.sneha26@gmail.com}\\
+  \href{https://itssneha.netlify.app/}{Portfolio: portfolio.in/sneha} & Mobile:~~~+91-7319361XXX \\
+  \href{https://appurl.io/WISrGMECkh}{Github: ~~github.com/sneha}  & Location:~~~Bengaluru, India\\
+  \href{https://appurl.io/_mQ9pP7yEC}{Linkedin: ~~linkedin.com/sneha}
+\end{tabular*} 
+
+
+%-----------EDUCATION-----------------\section{~~Education}
+\section{Objective}
+\vspace{4pt}
+  \resumeSubHeadingListStart
+   {\normalsize  Recent B.Tech graduate with a deep interest in Full Stack development, leveraging Java and modern web technologies, looking for an opportunity to contribute to a development team where I can grow my technical skills and gain practical experience.}
+\resumeSubHeadingListEnd
+    
+\section{Education}
+\vspace{4pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Asansol Engineering College}{Asansol, India}
+      {Bachelor of Technology - Information Technology;  GPA: 8.8 CGPA}{July 2020 - June 2024}
+      
+      \resumeSubheading
+      {Manisha International School}{Durgapur, India}
+      {Intermediate-  Percentage: 83 }{April 2018 - March 2020}
+      \resumeSubheading
+      {Manisha International School}{Durgapur, India}
+      {Matriculation-  Percentage: 89 }{April 2016 - March 2018}
+    \resumeSubHeadingListEnd
+	    
+\vspace{-5pt}
+\section{Skills Summary}
+    \vspace{4pt}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~Core Java, HTML5, CSS3, JavaScript, SQL}
+	\resumeSubItem{Frameworks}{~~~~Java Collection, Spring, SpringBoot, JDBC, Hibernate, Spring Data JPA, React(Basic)}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Git & GitHub, PostMan, Spring Tool Suite, VSCode, Eclipse IDE, AWS(EC2)}
+ \resumeSubItem{Course Work: }{Operating Systems, Computer Networks, OOPs Concept, Software Engineering,Database Management System}
+	\resumeSubItem{Soft Skills}{~~~~~~~Communication, Time Management, Adaptability, Quick Learning}
+
+\resumeSubHeadingListEnd
+\vspace{-1pt}
+
+%-----------PROJECTS-----------------
+
+\section{Projects}
+\resumeSubHeadingListStart
+\vspace{4pt}
+\resumeSubItem{E-Car Portal}{This website allows users to explore and browse electric cars, view detailed specifications, and filter cars by brand. It features a home page with a search filter, car listings, and individual car detail pages. A responsive design ensures compatibility across devices.\\
+{Technology used}: HTML, CSS, JavaScript (October '22)}
+\vspace{4pt}
+\resumeSubItem{TechTube An E-learning Platform}{ Developed an e-learning platform that includes an admin panel where teachers can upload video lessons, manage courses, and track student enrollments. \\And the Students can browse, enroll in, and access these videos for learning at their own pace, featuring a user-friendly interface and a dedicated doubt resolution section.\\
+Technology used: HTML, CSS , JavaScript, PHP, MySQL, Xampp Server (Jan '24)}
+\vspace{5pt}
+\resumeSubItem{Team Tracker: (A RestfulApi's CRUD operation project using Java SpringBoot )}{An efficient employee tracking system developed with React and Spring Boot for seamless management and real-time monitoring. \\
+Technology used: ReactJs, SpringBoot, Spring Data JPA, MySql (August '24)}
+\vspace{5pt}
+\resumeSubItem{AI Image Generator: }{It is a web application built using ReactJS that transforms user-provided text prompts into images. This tool interprets textual descriptions and generates unique visuals, allowing users to create imaginative images easily. \\
+Technology used: ReactJs, Open AI Api}
+\vspace{2pt}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Certifications}
+\resumeSubHeadingListStart
+\resumeSubItem{Java, Coursera: }{Learned skills on Object Oriented Programming and Fundamentals of Java, MultiThreading, Exception Handling etc. (July '21) \\
+\href{https://xprilion.com}{Link: https://appurl.io/MgeMHNS3x-}}
+\vspace{2pt}
+\resumeSubItem{English For Career development, Coursera: }{Improved grammar and vocabulary skills and learnt ethics.  (June '21) \\
+\href{https://xprilion.com}{Link: https://appurl.io/82lzZlaILs}}
+\vspace{2pt}
+\resumeSubItem{AWS Cloud Practitioner Essentials: }{ AWS- built knowledge on AWS Cloud and exp foundational cloud concepts, AWS services, security, architecture, pricing, and support.  (September '24) \\
+\href{https://xprilion.com}{Link: https://appurl.io/uWpsJwiwL_}}
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+%-----------Awards-----------------
+\section{Achievements}
+\begin{description}[font=$\bullet$]
+\item {5 Star in MySQL On HackerRank}
+\vspace{-5pt}
+\item {5 Star in Java Problem Solving On HackerRank}
+\vspace{-5pt}
+
+\end{description}
+\end{document}
